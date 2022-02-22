@@ -1,0 +1,18 @@
+.hotMenu-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.hotMenuLink{
+    text-decoration: none;
+    margin: 1vmax;
+    padding: 0.2vmax 0;
+    color: rgb(94, 94, 94);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid transparent;
+}
+.hotMenuLink:hover{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+    text-decoration: none;
+}

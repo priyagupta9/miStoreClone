@@ -1,0 +1,36 @@
+.vid-wrapper{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width:90vw; */
+}
+.vidCard{
+    margin: 0.4rem;
+    cursor: pointer;
+    width: 29vmax;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.vidCard >a{
+    padding: 2.5vmax;
+    border: none;
+    background-color: rgba(225, 225, 225, 0.096);
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+.vidCard>a >svg{
+    fill: white;
+}
+.vidCard:hover a{
+    background-color: rgba(255, 255, 255, 0.671) ;
+}
+.vidCard p{
+    color: white;
+}

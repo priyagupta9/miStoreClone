@@ -1,0 +1,22 @@
+.navcard-wrapper{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 2vmax;
+    z-index: 1000;
+    align-items: center;
+}
+.NavCard{
+    width: 10vmax;
+    text-align: center;
+    cursor: pointer;
+}
+.NavCard img{
+    width: 10vmax;
+}
+.NavCard p{
+    margin: 0;
+}
+.NavCard span{
+    color: orangered;
+}
